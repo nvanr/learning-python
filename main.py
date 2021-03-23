@@ -1,3 +1,8 @@
-print(6*6)
+def Multiply(number1, number2):
+    print("TODO!")
 
-print("hello! My name is Hendrik.")
+
+if (Multiply(16, 8) != 128):
+    print("Wrong!")
+else:
+    print("Awesome!")
