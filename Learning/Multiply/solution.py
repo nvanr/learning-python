@@ -6,4 +6,3 @@ if (Multiply(5, 10) != 50):
     print("Wrong!")
 else:
     print("Awesome!")
-
