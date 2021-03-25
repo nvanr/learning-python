@@ -26,3 +26,4 @@ assert float(calculateTotalPrice(
 # nog wat random grote nummers...
 assert float(calculateTotalPrice(
     1440, 54)) == 2217.6, "Wrong! The total laptop price should be 2217.6!"
+print('Everything works!')

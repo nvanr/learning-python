@@ -26,3 +26,4 @@ assert calculateTotalSum(
 # nog wat random grote nummers...
 assert calculateTotalSum(
     1024) == 523776, "Wrong!  The total sum should be 523776!"
+print('Everything works!')

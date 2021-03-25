@@ -11,7 +11,7 @@
 # Hieronder verwijdert ge lijn 14 en daar begint ge de logica te schrijven voor het gemiddelde te berekenen en terug te sturen (hint)
 # Tip: vergeet niet de logica TERUG te geven...... ;)
 def calculateAverage(grade1, grade2, grade3):
-    print('Remove this whole print line and write code here.')
+    return((grade1+grade2+grade3)/3)
 
 
 # Het stukje tekst dat hieronder staat is een assert functie
@@ -26,3 +26,4 @@ assert calculateAverage(
 # nog wat random grote nummers...
 assert calculateAverage(
     1546, 7541, 4563) == 4550, "Wrong! The average for (1546, 7541, 4563) should be 4550!"
+print('Everything works!')

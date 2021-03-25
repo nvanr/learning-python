@@ -22,3 +22,4 @@ assert int(calculateTotalPrice(
 # nog wat random grote nummers...
 assert int(calculateTotalPrice(
     1440)) == 1584, "Wrong! The total laptop price should be 1584!"
+print('Everything works!')
