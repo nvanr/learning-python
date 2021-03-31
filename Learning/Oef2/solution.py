@@ -10,11 +10,10 @@
 # Hieronder verwijdert ge lijn 13 en daar begint ge de logica te schrijven voor het gemiddelde te berekenen en terug te sturen (hint)
 # Tip: vergeet niet de logica TERUG te geven...... ;)
 def calculateTotalPrice(laptopPrice):
-    print('Remove this whole print line and write code here.')
+    return(laptopPrice + (laptopPrice*0.1))
 
 
-assert calculateTotalPrice(
-    300) == 330, "Wrong!  The total laptop price should be 330!"
+assert calculateTotalPrice(300) == 330, "Wrong!  The total laptop price should be 330!"
 
 assert int(calculateTotalPrice(
     850)) == 935, "Wrong! The total laptop price should be 935!"
