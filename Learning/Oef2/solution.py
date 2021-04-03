@@ -11,9 +11,12 @@
 # Tip: vergeet niet de logica TERUG te geven...... ;)
 def calculateTotalPrice(laptopPrice):
     return(laptopPrice + (laptopPrice*0.1))
+  # Ziet er goed uit, wat ook had gekunnen en is iets meer leesbaar:
+  # return laptopPrice*1.1
 
 
-assert calculateTotalPrice(300) == 330, "Wrong!  The total laptop price should be 330!"
+assert calculateTotalPrice(
+    300) == 330, "Wrong!  The total laptop price should be 330!"
 
 assert int(calculateTotalPrice(
     850)) == 935, "Wrong! The total laptop price should be 935!"
